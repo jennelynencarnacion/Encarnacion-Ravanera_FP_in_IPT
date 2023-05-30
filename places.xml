@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<places>
+	<about>
+		
+	</about>
+	<!-- ACTIVITIES -->
+	<activity>
+    <title>Moryonan or Moriones Lenten Rites</title>
+    <description>A Holy Week tradition where colorfully garbed and masked soldiers and centurions parade the streets of the province particularly in the towns of Boac, Mogpog and Gasan which culminates in the re-enactment of the beheading of Longinus.</description>
+	</activity>
+	<activity>
+		<title>Senakulo in Boac Morion Arena</title>
+		<description> A yearly theatrical re-enactment of the passion of Christ performed by local artists in Boac Morion Arena</description>
+	
+	</activity>
+	<activity>
+		<title>Black Friday Processions</title>
+		<description>Each town holds its Black Friday Procession, most notable is the one in the town of Gasan where lady devotees called Pupuwa Ladies who are clad in black dress and crowned with pupuwa leaves join the procession barefooted. Meanwhile, Pataraka Boys are positioned at start the processions of both the Catholic and Aglipay faithfuls, these are boys in hooded abito making loud noise with various types of pataraka or local noisemaking instrument made of bamboo or thick plywood.</description>
+	</activity>
+	<activity>
+		<title>Via Crucis</title>
+		<description>During Good Fridays, the streets of Boac, Mogpog and Gasan are converted into huge stage as locals observed Via Crucis or the Way of the Cross, one of the highlights of Moryonan Lenten Rites.</description>
+	</activity>
+	<activity>
+		<title>Visita Iglesia</title>
+		<description>In the old churches of the province including Immaculate Conception Cathedralo or Boac Cathedral, St, Joseph Parish Church or Gasan Church and Holy Cross Parish Church or Santa Cruz Church, among others.</description>
+	</activity>
+	<activity>
+		<title>Tawak Drinking </title>
+		<description>A traditional drink similar to a potion which is made up of brewed barks, leaves, various herbs and vines. It is usually drink in the early morning of Good Friday and believed to be an effective antidote against animal bites, maladies and bad spirits.</description>
+	</activity>
+	<activity>
+		<title>Witness a Putong Ceremony</title>
+		<description>Putong or tubong is a ceremony performed in the Province of Marinduque to welcome and honor the visitors. The ceremony takes the form of the eponymous songs for thanksgiving, hope and prayer for a long blessed life, accompanied by local dances.</description>
+	</activity>
+	<activity>
+		<title>Waterfalls Hopping</title>
+		<description>Check out the waterfalls scattered in the island such as Paadjao Falls of Mogpog; Kabugsakan Falls, Busay Falls and Lambngan Falls of Boac; Basud Falls and Tabag Falls of Torrijos; and Kawa-Kawa of Santa Cruz.</description>
+	</activity>
+	<activity>
+		<title>Spelunking</title>
+		<description>Explore the Bagumbungan Cave and Bathala Caves of Santa Cruz, Tarug Cave of Mogpog, Duyay Cave of Boac and Ka Amon Cave of Torrijos.</description>
+	</activity>
+	<activity>
+		<title>Festivals</title>
+		<description>Celebrate with Kangga Festival of Mogpog, Bila-Bila Festival of Boac, Gasang-Gasang Festival of Gasan, Kalutang Festival, Kalesayahan Festival, Haring Karabaw Festival.</description>
+	</activity>
+	<activity>
+		<title>Snorkeling, Free Diving and Scuba Diving</title>
+		<description>Try Snorkeling, Free Diving and Scuba Diving in Tres Reyes Island, Maniwaya Island and the waters around town</description>
+	</activity>
+	
+
+
+	<!-- PLACES -->
+	<place>
+		<name>Balar Hotel and Spa</name>
+		<image>images/balar.jpg</image>
+		<description>  At Balar Hotel and Spa, guests are bound to have a stress-free stay...</description>
+		<location>Balaring Boac, Marinduque</location>
+		<website>https://www.chiangdao.com/hotels4/asiahotels/philippineshotels/marinduquehotels/balarhotelandspah9374218.htm</website>
+	</place>
+	<place>
+		<name>Nine Balconies Island Stay</name>
+		<image>images/9balconies.jpg</image>
+		<description>Have a hassle-free trip while enjoying the services and amenities offered by Nine Balconies Island...</description>
+		<location>Lardizabal Street Nine Balconies Island Stay, Boac, Marinduque</location>
+		<website>https://www.chiangdao.com/hotels4/asiahotels/philippineshotels/marinduquehotels/ninebalconiesislandstay.htm</website>
+	</place>
+	<place>
+		<name>Luxur Resort and Restaurant</name>
+		<image>images/luxur.jpg</image>
+		<description>Luxor Resort and Restaurant is perfectly located for both business and leisure guests in Marinduque... </description>
+		<location>Marinduque Circumferential Road, Pangi, Gasan, Marinduque</location>
+		<website>https://www.chiangdao.com/hotels4/asiahotels/philippineshotels/marinduquehotels/luxorresortandrestaurant.htm</website>
+	</place>
+	<place>
+		<name>Flinstone Mini Cave</name>
+		<image>images/flinstone.jpg</image>
+		<description>Featuring a garden, a terrace, and a bar, Flintstone Mini-Cave provides accommodation...</description>
+		<location>Marinduque Circumferential Road, Torrijos, Marinduque</location>
+		<website>https://www.chiangdao.com/hotels4/asiahotels/philippineshotels/marinduquehotels/flintstoneminicave.htm</website>
+	</place>
+	<place>
+		<name>Marina Marinduque Hotel and Resort</name>
+		<image>images/marina.jpg</image>
+		<description>At Marina Marinduque Hotel and Resort, guests are bound to have a stress-free stay...</description>
+		<location>Balaring, Boac, Marinduque</location>
+		<website>https://www.chiangdao.com/hotels4/asiahotels/philippineshotels/marinduquehotels/marinamarinduquehotelandresort.htm</website>
+	</place>	
+	<place>
+		<name>Villa d' Arco Resort</name>
+		<image>images/darco.jpg</image>
+		<description>Rooms Make yourself at home in one of the 7 air-conditioned guestrooms...</description>
+		<location>D' Arco, Banahaw, Sta. Cruz, Marinduque</location>
+		<website>https://www.chiangdao.com/hotels4/asiahotels/philippineshotels/marinduquehotels/villadarcoresort.htm</website>
+	</place>
+</places>

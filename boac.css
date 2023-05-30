@@ -1,0 +1,609 @@
+
+body{
+	background: var(--second-bg-color);
+	color:var(--text-color);
+	font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+ 
+:root {
+    --bg-color: black ;
+    --second-bg-color: #151515 ;
+    --text-color: white;
+    --main-color: crimson;
+}
+
+
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: var(--bg-color);
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.logo{
+	color: var(--text-color);
+	font-size: 35px;
+	font-weight:600;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+.header span{
+	color: var(--main-color);
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 25px;
+	
+	
+}
+nav ul li a{
+	color: var(--text-color);
+	text-decoration: none;
+	font-weight: 2rem;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: var(--main-color);
+	transition: .4s;
+}
+
+form {
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  button[type="submit"] {
+    padding: 10px;
+    margin-left: 10px;
+    background-color: var(--main-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+
+/* -------------------- ABOUT SECTION ------------------------------ */
+.about {
+  background: var(--second-bg-color);
+  height: 100vh;
+  margin-top: -2rem;
+
+}
+span{
+  color: var(--main-color);
+}
+
+.about .container-about h1{
+  text-align: center;
+  font-size: 50px;
+  padding-top: 8rem;
+  margin: 1rem;
+  
+  
+}
+.about .container-about p{
+  text-align: center;
+  margin: 4rem;
+  font-size: 20px;
+}
+
+
+/* Boac Design ari dun sa picture sa taas */
+
+.boac-text{
+  margin-top: 0%;
+  font-size: 30px;
+  text-align: center;
+  background: linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5) );
+  padding: 200px;
+  padding-bottom: 1.5%;
+  
+  
+}
+
+.boac-text h1{
+  font-size: 60px;
+  margin-top: -100px;
+  color: var(--text-color);
+  background: linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5) );
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+ 
+}
+.boac-about p{
+  
+  margin: 2rem;
+  text-align: center;
+  justify-content: center;
+  font-size: 20px;
+  padding: 2rem; 
+}
+
+.boac{
+  height: 50vh;
+	width: 100%;
+	background-image: url(images/Casa-Real.jpg);
+	background-size: cover;
+	background-position: center;
+  margin-bottom: 20rem;
+}
+
+/* Tours design */
+.tours{
+
+
+  text-align: justify;
+  margin:20rem;
+  padding: 20rem;
+  margin-top: 50rem;
+  
+  
+}
+.place h3{
+  margin-left: 5rem;
+  margin-right: 5rem;
+  text-align: left;
+  color: #fff;
+  font-weight: normal;
+  font-size: 25px;
+  padding-top: 3rem;
+ 
+}
+.place p{
+  margin-top: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  text-align: justify;
+  font-size: 20px;
+
+}
+
+
+
+.place span{
+  color: var(--main-color);
+  margin-left: .1rem;
+  
+}
+.place img{
+  
+  width: 1200px;
+  height: 700px;
+  margin-left: 8rem;
+  outline: 10px solid var(--text-color);
+  
+ 
+}
+
+/* ----------------------------------TORRIJOS---------------- */
+
+.torrijos-text{
+  margin-top: 0%;
+  font-size: 30px;
+  text-align: center;
+  background: linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5) );
+  padding: 200px;
+  padding-bottom: 1.5%;
+  
+}
+.torrijos-about p{
+  
+  margin: 2rem;
+  text-align: center;
+  justify-content: center;
+  font-size: 20px;
+  padding: 2rem; 
+}
+
+.torrijos-text h1{
+  font-size: 60px;
+  margin-top: -100px;
+  color: var(--text-color);
+  background: linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5) );
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+
+}
+
+.torrijos-class{
+  height: 50vh;
+	width: 100%;
+	background-image: url(images/torrijos.jpg);
+	background-size: cover;
+	background-position: center;
+  margin-bottom: 20rem;
+}
+
+
+.tours-torrijos{
+  text-align: justify;
+  margin:2rem;
+  padding: 2rem;
+  margin-top: 50rem;
+  
+  
+}
+.torrijos h3{ 
+  margin-left: 5rem;
+  margin-right: 5rem;
+  text-align: left;
+  color: #fff;
+  font-weight: normal;
+  font-size: 25px;
+  padding-top: 3rem;
+  
+}
+.torrijos p{
+  
+  margin-top: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  text-align: justify;
+  font-size: 20px;
+}
+
+
+
+.torrijos span{
+  color: var(--main-color);
+  margin-left: .1rem;
+  
+}
+.torrijos img{
+  width: 1200px;
+  height: 700px;
+  margin-left: 8rem;
+  outline: 10px solid var(--text-color);
+  
+ 
+}
+
+/*  BUENAVISTA */
+
+.buenavista-text{
+  margin-top: 0%;
+  font-size: 30px;
+  text-align: center;
+  background: linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5) );
+  padding: 200px;
+  padding-bottom: 1.5%;  
+}
+
+.buenavista-about p{
+  
+  margin: 2rem;
+  text-align: center;
+  justify-content: center;
+  font-size: 20px;
+  padding: 2rem; 
+}
+
+
+.buenavista-text h1{
+  
+
+  font-size: 60px;
+  margin-top: -100px;
+  color: var(--text-color);
+  background: linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5) );
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+ 
+}
+
+.buenavista-class{
+  height: 50vh;
+	width: 100%;
+	background-image: url(images/buenavistaprof.png);
+	background-size: cover;
+	background-position: center;
+  margin-bottom: 20rem;
+  
+  
+}
+
+.tours-buenavista{
+  text-align: justify;
+  margin:20rem;
+  padding: 20rem;
+  margin-top: 50rem;
+}
+.buenavista h3{ 
+  margin-left: 5rem;
+  margin-right: 5rem;
+  text-align: left;
+  color: #fff;
+  font-weight: normal;
+  font-size: 25px;
+  padding-top: 3rem;
+  
+}
+.buenavista p{
+  margin-top: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  text-align: justify;
+  font-size: 20px;
+
+}
+
+
+.buenavista span{
+  color: var(--main-color);
+  margin-left: .1rem;
+  
+}
+.buenavista img{
+  width: 1200px;
+  height: 700px;
+  margin-left: 8rem;
+  outline: 10px solid var(--text-color);
+}
+
+/* Santa Cruz  */
+
+.santacruz-text{
+  margin-top: 0%;
+  font-size: 30px;
+  text-align: center;
+  background: linear-gradient( rgba(0,0,0,0.2),rgba(0,0,0,0.2) );
+  padding: 200px;
+  padding-bottom: 1.5%;
+  
+}
+.santacruz-about p{
+  
+  margin: 2rem;
+  text-align: center;
+  justify-content: center;
+  font-size: 20px;
+  padding: 2rem; 
+}
+
+.santacruz-text h1{
+  font-size: 60px;
+  margin-top: -100px;
+  color: var(--text-color);
+  background: linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5) );
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+ 
+}
+
+.santacruz-class{
+  height: 50vh;
+	width: 100%;
+	background-image: url(images/santaCruz.png);
+	background-size: cover;
+	background-position: center;
+  margin-bottom: 20rem;
+}
+
+
+.tours-santacruz{
+  text-align: justify;
+  margin:2rem;
+  padding: 2rem;
+  margin-top: 50rem;
+  
+  
+}
+.santacruz h3{ 
+  margin-left: 5rem;
+  margin-right: 5rem;
+  text-align: left;
+  color: #fff;
+  font-weight: normal;
+  font-size: 25px;
+  padding-top: 3rem;
+  
+}
+.santacruz p{
+  
+  margin-top: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  text-align: justify;
+  font-size: 20px;
+}
+
+
+
+.santacruz span{
+  color: var(--main-color);
+  margin-left: .1rem;
+  
+}
+.santacruz img{
+  width: 1200px;
+  height: 700px;
+  margin-left: 8rem;
+  outline: 10px solid var(--text-color);
+ 
+}
+
+
+/* mogpog */
+
+.mogpog-text{
+  margin-top: 0%;
+  font-size: 30px;
+  text-align: center;
+  background: linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5) );
+  padding: 200px;
+  padding-bottom: 1.5%;
+  
+}
+.mogpog-about p{
+  
+  margin: 2rem;
+  text-align: center;
+  justify-content: center;
+  font-size: 20px;
+  padding: 2rem; 
+}
+
+.mogpog-text h1{
+  font-size: 60px;
+  margin-top: -100px;
+  color: var(--text-color);
+  background: linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5) );
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  
+
+}
+
+.mogpog-class{
+  height: 50vh;
+	width: 100%;
+	background-image: url(images/mogpoghall.jpg);
+	background-size: cover;
+	background-position: center;
+  margin-bottom: 20rem;
+}
+
+
+.tours-mogpog{
+  text-align: justify;
+  margin:2rem;
+  padding: 2rem;
+  margin-top: 50rem;
+  
+  
+}
+.mogpog h3{ 
+  margin-left: 5rem;
+  margin-right: 5rem;
+  text-align: left;
+  color: #fff;
+  font-weight: normal;
+  font-size: 25px;
+  padding-top: 3rem;
+  
+}
+.mogpog p{
+  
+  margin-top: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  text-align: justify;
+  font-size: 20px;
+}
+
+
+
+.mogpog span{
+  color: var(--main-color);
+  margin-left: .1rem;
+  
+}
+
+.mogpog img{
+  width: 1200px;
+  height: 700px;
+  margin-left: 8rem;
+  outline: 10px solid var(--text-color);
+}
+
+
+/* -------------------------------GASAN ------------------------- */
+
+.gasan-text{
+  margin-top: 0%;
+  font-size: 30px;
+  text-align: center;
+  background: linear-gradient( rgba(0,0,0,0.3),rgba(0,0,0,0.3) );
+  padding: 200px;
+  padding-bottom: 1.5%;
+  
+  
+}
+
+.gasan-text h1{
+  font-size: 60px;
+  margin-top: -100px;
+  color: var(--text-color);
+  background: linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5) );
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+ 
+}
+.gasan-about p{
+  
+  margin: 2rem;
+  text-align: center;
+  justify-content: center;
+  font-size: 20px;
+  padding: 2rem; 
+}
+
+.gasan-class{
+  height: 50vh;
+	width: 100%;
+	background-image: url(images/gasanmunicipal.jpg);
+	background-size: cover;
+	background-position: center;
+  margin-bottom: 20rem;
+}
+
+.tours-gasan{
+
+
+  text-align: justify;
+  margin:20rem;
+  padding: 20rem;
+  margin-top: 50rem;
+  
+  
+}
+.gasan h3{
+  margin-left: 5rem;
+  margin-right: 5rem;
+  text-align: left;
+  color: #fff;
+  font-weight: normal;
+  font-size: 25px;
+  padding-top: 3rem;
+ 
+}
+.gasan p{
+  margin-top: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  text-align: justify;
+  font-size: 20px;
+
+}
+
+.gasan span{
+  color: var(--main-color);
+  margin-left: .1rem;
+  
+}
+.gasan img{ 
+  width: 1200px;
+  height: 700px;
+  margin-left: 8rem;
+  outline: 10px solid var(--text-color);
+}
+
+/* -------------------------FOOTER ---------------------- */
+footer{
+  background: var(--bg-color);
+  padding: .5rem;
+}
